@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Task from "./components/Task";
+import { Center, Box, CheckboxGroup, Text } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box mt="64px">
+      <Center>
+        <Box>
+          <Box mb="24px">
+            <Text fontSize="24px" fontWeight="bold">
+              タスク一覧
+            </Text>
+          </Box>
+          <CheckboxGroup>
+            <Task name="買い物" />
+            <Task name="ランニング" />
+            <Task name="プログラミングの勉強" />
+          </CheckboxGroup>
+        </Box>
+      </Center>
+    </Box>
   );
 }
 
