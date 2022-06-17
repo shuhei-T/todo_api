@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/takahashishuuhei/.anyenv/envs/nodenv/versions/17.7.2/bin/node /Users/takahashishuuhei/.anyenv/envs/nodenv/versions/17.7.2/bin/yarn install
+
+PATH: 
+  /Users/takahashishuuhei/.anyenv/envs/nodenv/versions/17.7.2/bin:/Users/takahashishuuhei/.anyenv/envs/nodenv/libexec:/Users/takahashishuuhei/.anyenv/envs/nodenv/plugins/nodenv-vars/bin:/Users/takahashishuuhei/.anyenv/envs/nodenv/plugins/node-build/bin:/Users/takahashishuuhei/.anyenv/envs/nodenv/shims:/Users/takahashishuuhei/.anyenv/envs/nodenv/bin:/Users/takahashishuuhei/.rbenv/bin:/opt/homebrew/opt/mysql@5.7/bin:/Users/takahashishuuhei/.anyenv/envs/nodenv/shims:/Users/takahashishuuhei/.nodenv/bin:/Users/takahashishuuhei/.rbenv/shims:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/takahashishuuhei/.anyenv/envs/nodenv/shims:/Users/takahashishuuhei/.anyenv/envs/nodenv/bin:/Users/takahashishuuhei/.rbenv/bin:/opt/homebrew/opt/mysql@5.7/bin:/Users/takahashishuuhei/.nodenv/shims:/Users/takahashishuuhei/.nodenv/bin:/Users/takahashishuuhei/.rbenv/shims:/opt/homebrew/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  17.7.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/takahashishuuhei/practice/Zenn/Rails_React_TODO_APP/todo_api/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /Users/takahashishuuhei/.anyenv/envs/nodenv/versions/17.7.2/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/takahashishuuhei/.anyenv/envs/nodenv/versions/17.7.2/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/takahashishuuhei/.anyenv/envs/nodenv/versions/17.7.2/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
